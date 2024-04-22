@@ -1,5 +1,4 @@
 import * as pdfjsLib from 'pdfjs-dist'
-import * as pdfWorker from 'pdfjs-dist/build/pdf.worker.mjs'
 
 pdfjsLib.GlobalWorkerOptions.workerSrc =
   '../../node_modules/pdfjs-dist/build/pdf.worker.mjs'
