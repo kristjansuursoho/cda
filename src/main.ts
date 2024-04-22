@@ -1,4 +1,3 @@
-import './assets/poppins.css'
 import './assets/styles.css'
 
 // @ts-ignore

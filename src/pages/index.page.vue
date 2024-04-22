@@ -8,9 +8,9 @@
       }"
     >
       <div class="flex flex-col px-8 py-8">
-        <h1 class="text-2xl font-medium mb-1">Upload and attach documents</h1>
+        <h1 class="text-2xl font-medium mb-1">Upload document</h1>
         <p class="text-sm text-zinc-700">
-          Upload document, receive accounting data within seconds
+          Upload document, receive data within seconds
         </p>
       </div>
 
@@ -30,6 +30,9 @@
               :src="uploaderDocument?.previewUrl"
               alt=""
               class="object-contain max-h-[600px]"
+              :class="{
+                'opacity-40': isUploading,
+              }"
             />
           </div>
 
@@ -191,7 +194,7 @@ const listOfAllowedType = [
   'application/x-gzpdf',
 ]
 
-const listOfHiddenField = ['documentId']
+const listOfHiddenField = ['personalId']
 
 const digiStore = useDigiStore()
 
