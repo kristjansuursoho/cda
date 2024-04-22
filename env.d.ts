@@ -1,9 +1,5 @@
 /// <reference types="vite/client" />
 
-interface ImportMetaEnv {
-  readonly VITE_DIGI_TOKEN: string
-}
+interface ImportMetaEnv {}
 
-interface ImportMeta {
-  readonly env: ImportMetaEnv
-}
+interface ImportMeta {}

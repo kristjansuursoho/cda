@@ -1,4 +1,6 @@
+// @ts-ignore // Why is this happening?
 import Aura from 'primevue/themes/primeone/aura'
+// @ts-ignore // Why is this happening?
 import { definePreset } from 'primevue/themes'
 
 export const CustomTheme = definePreset(Aura, {

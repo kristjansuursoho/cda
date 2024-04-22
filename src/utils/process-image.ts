@@ -1,7 +1,6 @@
-import { isNil } from './helpers'
 import type { Box } from '../types'
 
-const listOfRequiredKey: string[] = [
+const listOfRequiredKey: (keyof Box)[] = [
   'topLeftX',
   'topLeftY',
 

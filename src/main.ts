@@ -1,19 +1,16 @@
 import './assets/poppins.css'
 import './assets/styles.css'
 
-import PrimeVueUnstyled from 'primevue/config'
-
+// @ts-ignore
 import PrimeOne from 'primevue/themes/primeone'
-
-import { CustomTheme } from './presets/custom'
-
+import PrimeVueUnstyled from 'primevue/config'
+import Tooltip from 'primevue/tooltip'
 import { createPinia } from 'pinia'
 import { createApp } from 'vue'
 
+import { CustomTheme } from './presets/custom'
 import router from './router'
 import App from './App.vue'
-
-import Tooltip from 'primevue/tooltip'
 
 const app = createApp(App)
 
